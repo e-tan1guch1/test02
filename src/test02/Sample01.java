@@ -17,6 +17,8 @@ public class Sample01 {
 		list.add("届いていますか？");
 		list.add("確認できました（谷口）");
 		list.add("三人だと結構むずかしそうだ");
+		list.add("");
+		list.add("餃子");
 		
 		for(String elem : list) {
 			System.out.println(elem);
