@@ -1,15 +1,26 @@
 package test02;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Sample01 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("変えたぞー");
-		System.out.println("伊山二度目の変更です");
-		System.out.println("メッセージを表示");
-		System.out.println("荒川孔貴です");
-		System.out.println("届いていますか？");
-		System.out.println("確認できました（谷口）");
+		List<String> list = new ArrayList<>();
+		
+		
+		list.add("変えたぞー");
+		list.add("伊山二度目の変更です");
+		list.add("メッセージを表示");
+		list.add("荒川孔貴です");
+		list.add("届いていますか？");
+		list.add("確認できました（谷口）");
+		list.add("三人だと結構むずかしそうだ");
+		
+		for(String elem : list) {
+			System.out.println(elem);
+		}
 	}
 
 }
