@@ -7,6 +7,8 @@ public class Sample01 {
 		System.out.println("変えたぞー");
 		System.out.println("メッセージを表示");
 		System.out.println("荒川孔貴です");
+		System.out.println("届いていますか？");
+		
 	}
 
 }
