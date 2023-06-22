@@ -20,6 +20,7 @@ public class Sample01 {
 		list.add("三人だと結構むずかしそうだ");
 		list.add("");
 		list.add("餃子");
+		list.add("プルする時はマスターのブランチにしてください");
 		
 		for(String elem : list) {
 			System.out.println(elem);
